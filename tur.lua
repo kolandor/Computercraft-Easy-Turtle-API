@@ -20,7 +20,7 @@ function refuel()
     
       turtle.select(i)
     
-      if turtle.refuel() then
+      if turtle.refuel(1) then
     
         return true
     
